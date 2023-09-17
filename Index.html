@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mstyle.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- I am Nav-Bar Area -->
+    <div class="body">
+        <header>
+            <nav>
+                <!-- parent Area -->
+                <div class="nav-bar flex-lign">
+
+                    <div class="nav-logo ">
+                        <a href="#">
+                            <div class="logo nav-hover"></div>
+                        </a>
+                    </div>
+
+                    <!-- nav-address Area-->
+
+                    <div class="nav-location flex-lign nav-hover padding">
+                        <div class="nav-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="nav-address flex">
+                            <span>Deliver to</span>
+                            <p>India</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Nav-Search Area -->
+
+                    <div class="nav-search flex-lign">
+                        <form action="#" class="flex">
+                            <div class="nav-select all-hover">
+                                <select name="choose" id="choose">
+                                    <option value="">All</option>
+                                    <option value="Books">Books</option>
+                                </select>
+                            </div>
+                            <div class="nav-search-text">
+                                <input type="search" name="search" id="search" placeholder="Search Amazon">
+                            </div>
+
+
+                            <div class="search-icon flex search-hover">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+
+                        </form>
+                    </div>
+                    <!-- Nav-Country Area -->
+
+                    <div class="nav-country flex-lign nav-hover padding">
+                        <div class="country-logo"><i class="fa-solid fa-earth-americas"></i></div>
+                        <span>EN</span>
+                        <div class="nav-dropdown-icon"><i class="fa-solid fa-caret-down"></i></div>
+                    </div>
+
+                    <!-- Nav Sign In Area -->
+
+                    <div class="nav-sign-in flex-lign nav-hover padding">
+                        <!-- Using nobr for no line break -->
+                        <!-- but we can also use (white-space: nowrap;) property -->
+                        <div class="nav-sign-in-text">
+                            <p nobr>Hello, sign in</p>
+                            <p nobr id="account">Account & List</p>
+                        </div>
+                        <div class="nav-dropdown-icon-account">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Returns & Orders Area -->
+
+                    <div class="Returns-orders flex nav-hover padding">
+                        <!-- Using nobr for no line break -->
+                        <!-- but we can also use (white-space: nowrap;) property -->
+                        <p nobr>Return</p>
+                        <p nobr id="orders"> & Orders </p>
+                    </div>
+
+                    <!-- shopping caret Area -->
+                    <div class="nav-cart flex-lign nav-hover padding">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart">Cart</span>
+
+                    </div>
+                </div>
+
+
+                <!-- I am sub Nav Bar -->
+
+                <div class="sub-nav flex-lign">
+                    <div class="sub-nav-icon flex-lign nav-hover">
+                        <i class="fa-solid fa-bars"></i>
+                        <span class="font-14">All</span>
+                    </div>
+
+                    <div class="sub-nav-list">
+                        <ul class="flex-lign nav-ul font-14">
+                            <li class="nav-hover sub-nav-hover"> <a nobr href="#">Today's Deals</a></li>
+                            <li class="nav-hover sub-nav-hover"> <a nobr href="#">Customer Service</a></li>
+                            <li class="nav-hover sub-nav-hover"> <a href="#">Registry</a></li>
+                            <li class="nav-hover sub-nav-hover"> <a nobr href="#">Gift Cards</a></li>
+                            <li class="nav-hover sub-nav-hover"> <a href="#">Sell</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <!-- I Am Hero Area -->
+
+            <div class="hero-area">
+                <div class="hero-img flex">
+
+                    <div class="hero-text-container flex-lign">
+
+                        <div class="hero-text flex-lign font-14">
+                            <span id="text">You are on amazon.com. You can also shop on Amazon India for millions of
+                                products
+                                with fast local
+                                delivery. <a href="#">Click here to go to amazon.in</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+
+
+
+
+        <main>
+            <div class="main-container">
+
+                <!-- I am Shopping Cart Area -->
+
+                <div class="shopping-cart-container flex-lign">
+
+                    <div class="shopping-cart cart-color flex">
+                        <h2>Electronics</h2>
+                        <a href="#">
+                            <div class="cart-img-1 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>Shop school essentials</h2>
+                        <a href="#">
+                            <div class="cart-img-2 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+                        <h2>Home & Kitchen Under $30</h2>
+                        <a href="#">
+                            <div class="cart-img-3 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>Find your ideal TV</h2>
+                        <a href="#">
+                            <div class="cart-img-4 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>For your Fitness Needs</h2>
+                        <a href="#">
+                            <div class="cart-img-5 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>Shop Laptops & Tablets</h2>
+                        <a href="#">
+                            <div class="cart-img-6 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>Shop activity trackers and smartwatches</h2>
+                        <a href="#">
+                            <div class="cart-img-7 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+                    <div class="shopping-cart cart-color flex">
+
+                        <h2>Kindle E readers</h2>
+                        <a href="#">
+                            <div class="cart-img-8 cart-img"></div>
+                            <div class="cart-text"><a href="#">Shop Now</a></div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <!-- Shopping List Area -->
+
+                <div class="shopping-list-container flex">
+                    <div class="shopping-list-padding">
+
+                        <span class="shopping-list-text flex">Frequently repurchased in Drugstore</span>
+                        <ul class="img-list flex">
+                            <a href="#">
+                                <li class="ph1" style="background-image: url(ph1.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph2 " style="background-image: url(ph2.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph3 " style="background-image: url(ph3.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph4 " style="background-image: url(ph4.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph5 " style="background-image: url(ph5.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph6 " style="background-image: url(ph6.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph7 " style="background-image: url(ph7.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph8 " style="background-image: url(ph8.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph9 " style="background-image: url(ph9.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph10 " style="background-image: url(ph10.jpg);"></li>
+                            </a>
+                            <a href="#">
+                                <li class="ph11 " style="background-image: url(ph11.jpg);"></li>
+                            </a>
+                            <a href="#" class="flex" id="ph12">
+                                <li class="ph12 " style="background-image: url(ph12.jpg);"></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <!-- I am footer Area -->
+            <div class="footer-container">
+
+                <a href="#" class="back-to-top flex-lign">
+                    <p>Back to top</p>
+                </a>
+
+                <div class="footer-content">
+
+                    <div class="footer-list flex">
+
+                        <div class="footer-text flex">
+                            <div class="footer-header">
+                                Get to Know Us
+                            </div>
+
+                            <ul>
+                                <a href="#">
+                                    <li>Careers</li>
+                                </a>
+                                <a href="#">
+                                    <li>Blog</li>
+                                </a>
+                                <a href="#">
+                                    <li>About Amazon</li>
+                                </a>
+                                <a href="#">
+                                    <li>Investor Relations</li>
+                                </a>
+                                <a href="#">
+                                    <li>Amazon Devices</li>
+                                </a>
+                                <a href="#">
+                                    <li>Amazon Science</li>
+                                </a>
+                            </ul>
+
+                        </div>
+                        <div class="footer-text" style="width: 184.31px;">
+                            <div class="footer-header">
+                                Make Money with Us
+                            </div>
+
+                            <ul>
+                                <a href="#">
+                                    <li>Sell products on Amazon</li>
+                                </a>
+                                <a href="#">
+                                    <li>Sell on Amazon Business</li>
+                                </a>
+                                <a href="#">
+                                    <li>Sell apps on Amazon</li>
+                                </a>
+                                <a href="#">
+                                    <li>Become an Affiliate</li>
+                                </a>
+                                <a href="#">
+                                    <li>Advertise Your Products</li>
+                                </a>
+                                <a href="#">
+                                    <li>Self-Publish with Us</li>
+                                </a>
+                                <a href="#">
+                                    <li>Host an Amazon Hub</li>
+                                </a>
+                                <a href="#">
+                                    <li>See More Make Money with Us</li>
+                                </a>
+                            </ul>
+
+
+                        </div>
+                        <div class="footer-text" style="width: 222.22px;">
+                            <div class="footer-header">
+                                Amazon Payment Products
+                            </div>
+
+                            <ul>
+                                <a href="#">
+                                    <li>Amazon Business Card</li>
+                                </a>
+                                <a href="#">
+                                    <li>Shop with Points</li>
+                                </a>
+                                <a href="#">
+                                    <li>Reload Your Balance</li>
+                                </a>
+                                <a href="#">
+                                    <li>Amazon Currency Converter</li>
+                                </a>
+
+                            </ul>
+                        </div>
+                        <div class="footer-text" style="width: 157.41px;">
+                            <div class="footer-header">
+                                Let Us Help You
+                            </div>
+
+                            <ul>
+                                <a href="#">
+                                    <li>Amazon and COVID-19</li>
+                                </a>
+                                <a href="#">
+                                    <li>Your Account</li>
+                                </a>
+                                <a href="#">
+                                    <li>Your Orders</li>
+                                </a>
+                                <a href="#">
+                                    <li class="white-space">Shipping Rates & Policies</li>
+                                </a>
+                                <a href="#">
+                                    <li>Returns & Replacements</li>
+                                </a>
+                                <a href="#">
+                                    <li>Manage Your Content and Devices</li>
+                                </a>
+                                <a href="#">
+                                    <li>Amazon Assistant</li>
+                                </a>
+                                <a href="#">
+                                    <li>Help</li>
+                                </a>
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- I am Sub Footer Area -->
+            <div class="sub-footer flex-lign">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+
+        </footer>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
